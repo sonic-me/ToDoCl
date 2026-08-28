@@ -1,0 +1,26 @@
+{
+  "lastDate": "2026-08-29",
+  "windowX": 120,
+  "windowY": 120,
+  "nextId": 4,
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Learn MATLAB",
+      "checked": false,
+      "recurring": true
+    },
+    {
+      "id": 2,
+      "text": "Learn DSD",
+      "checked": true,
+      "recurring": false
+    },
+    {
+      "id": 3,
+      "text": "Exercise",
+      "checked": false,
+      "recurring": true
+    }
+  ]
+}
