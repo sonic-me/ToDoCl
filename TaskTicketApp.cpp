@@ -566,7 +566,10 @@ void TaskTicketApp::Render(HDC hdc, const RECT& clientRect)
     // policy alpha, giving the "subtle acrylic" look; when unavailable we
     // simply get a solid dark matte window, which satisfies the graceful
     // fallback requirement.
-    FillRectColor(hdc, clientRect, Colors::Background);
+    if (!m_compositionAvailable)
+    {
+        FillRectColor(hdc, clientRect, Colors::Background);
+    }
 
     int width = clientRect.right;
     int headerH = ScaleForDpi(Layout::HeaderHeight);
