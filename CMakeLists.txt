@@ -42,3 +42,6 @@ endif()
 set_target_properties(TaskTicket PROPERTIES
     OUTPUT_NAME "TaskTicket"
 )
+if (MSVC)
+    target_link_options(TaskTicket PRIVATE "/MANIFEST:NO")
+endif()
