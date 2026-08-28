@@ -1,4 +1,5 @@
 #include "TaskTicket.h"
+#include "Resource.h"
 #include <windowsx.h>
 #include <dwmapi.h>
 #include <algorithm>
