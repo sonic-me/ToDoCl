@@ -1,9 +1,0 @@
-#include "Resource.h"
-
-// Per-Monitor-V2 DPI awareness manifest (RT_MANIFEST = 24, resource id 1
-// is what the loader looks for on the primary executable).
-1 24 "app.manifest"
-
-// Optional application icon. Drop a TaskTicket.ico file next to this .rc
-// file and uncomment the line below to give the EXE a custom icon.
-// IDI_APPICON ICON "TaskTicket.ico"
